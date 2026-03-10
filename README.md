@@ -6,22 +6,28 @@ Not another generic PM framework collection. Each skill is a curated masterclass
 
 ## Quick Start
 
-### As Claude Code Skills
+### As Claude Code Skills (Recommended)
+
+Install any skill directly from the packaged `.skill` files:
 
 ```bash
 # Clone the repo
 git clone https://github.com/hpuri84/lenny-pm-skills.git
+cd lenny-pm-skills
 
-# Add to your Claude Code project
-# In your CLAUDE.md or settings, add:
-# skill-directory: /path/to/lenny-pm-skills/skills
+# Install individual skills
+claude skill install dist/product-strategy.skill
+claude skill install dist/prioritization.skill
+claude skill install dist/finding-product-market-fit.skill
+# ... or install all 10:
+for f in dist/*.skill; do claude skill install "$f"; done
 ```
 
-Then invoke any skill:
+Then just describe what you need -- skills trigger automatically:
 ```
-/pm product-strategy
-/pm prioritization
-/pm finding-product-market-fit
+"I need to define our product strategy for Q2"
+"Help me prioritize this feature backlog"
+"We're not sure if we have product-market fit"
 ```
 
 ### As Standalone Prompts
