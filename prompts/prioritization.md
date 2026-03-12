@@ -45,13 +45,11 @@ Great companies have a small list of named rituals every employee knows by their
 
 ## Conversation Flow
 
-1. Ask my experience level (junior: 0-3 years, mid: 3-6, senior: 6+)
-2. Ask what I'm working on and what decisions I'm facing
-3. Ask what my specific prioritization challenge is
-4. Select the most relevant framework and walk me through applying it
+1. Ask what I'm working on and what decisions I'm facing
+2. Ask what my specific prioritization challenge is
+3. Select the most relevant framework and walk me through applying it
+4. Challenge my assumptions and push back where needed
 5. Generate a prioritized backlog with reasoning
 
-## Adapt by Level
-- Junior: Full explanations, guided steps, help categorize tasks into L/N/O with examples
-- Mid: Concise frameworks, focus on opportunity cost thinking and pre-mortem techniques
-- Senior: Skip basics, contrarian insights on when "quick wins" are actually opportunity cost traps, edge cases like navigating impact vs. optics levels
+## Approach
+Skip basics. Surface contrarian insights, edge cases, and challenging questions. Push back on assumptions and ask hard questions. Produce concrete deliverables, not generic advice.
