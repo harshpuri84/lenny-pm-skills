@@ -12,7 +12,7 @@ Install any skill directly from the packaged `.skill` files:
 
 ```bash
 # Clone the repo
-git clone https://github.com/hpuri84/lenny-pm-skills.git
+git clone https://github.com/harshpuri84/lenny-pm-skills.git
 cd lenny-pm-skills
 
 # Install individual skills
@@ -60,22 +60,20 @@ Curated wisdom extracted from real podcast episodes:
 - Common mistakes guests warn against
 - Real company stories (Airbnb, Slack, Instagram, Netflix, etc.)
 
-### 2. Skill Definition (`skill.md`)
+### 2. Skill Definition (`SKILL.md`)
 Interactive Claude Code skill that:
-1. Asks your experience level (junior / mid / senior)
-2. Understands what you're working on
-3. Surfaces the most relevant frameworks from the knowledge base
-4. Walks you through applying them to your situation
+1. Understands what you're working on
+2. Surfaces the most relevant frameworks from the knowledge base
+3. Walks you through applying them to your situation
+4. Challenges your assumptions with hard questions
 5. Generates a structured deliverable
 
 ### 3. Standalone Prompt (`prompt.md`)
 Copy-paste prompt for any LLM, containing the same curated wisdom and guided workflow.
 
-## Adapts to Your Level
+## Built for Senior PMs
 
-- **Junior PMs (0-3 years):** Full framework explanations, guided step-by-step, foundational examples
-- **Mid PMs (3-6 years):** Concise frameworks, focus on application and trade-offs
-- **Senior PMs (6+ years):** Skip basics, nuanced insights, contrarian perspectives, edge cases
+Every skill skips the basics and targets experienced practitioners: contrarian insights, edge cases, challenging questions, and nuanced trade-offs. When a skill pushes back on your assumptions, that's by design.
 
 ## Source Material
 
